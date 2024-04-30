@@ -1,0 +1,9 @@
+section {
+    width: 50vw;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+section img {
+    width: 300px;
+}
