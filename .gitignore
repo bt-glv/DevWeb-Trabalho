@@ -1,2 +1,3 @@
 # Ignores vim-session files 
 *.vim
+.commit
