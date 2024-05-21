@@ -12,8 +12,16 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
 
+		<!-- Bootstrap CSS -->
         <link href="css/bootstrap_t.css" rel="stylesheet" />
+
+		<!-- Estilos da página -->
         <link href="css/style.css" rel="stylesheet" />
+
+		<!-- Effeitos e relacionados-->
+		<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+				<!-- fonte: https://github.com/mattboldt/typed.js-->
+		<link href="css/effects.css" rel="stylesheet" />
     </head>
 
 
@@ -31,20 +39,26 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">	Home		</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">	Serviços	</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">		Login		</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">		Contato		</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">	Sobre		</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#home">	Home		</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/servicos.html">	Serviços	</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/login.html">		Login		</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/contato.html">		Contato		</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/sobre.html">	Sobre		</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <header class="masthead">
+        <header class="masthead" id="home">
             <div class="container">
 				<div class="masthead-heading text-uppercase">Arch Devs</div>
-				<div class="masthead-subheading">Desenvolvimento de aplicações Web, Mobile ou Desktop sob Demanda</div>
+				<div>
+					<div class="hero-container masthead-subheading" style="margin-bottom: 4rem" data-aos="fade-in">
+						<p style="margin-bottom:1px;margin-top:1px;">Desenvolvimento de</p>
+						<span class="typed" data-typed-items="Aplicações Web,Aplicações Mobile,Aplicações Desktop"></span>
+					</div>
+				</div>
+
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Mais Sobre</a>
             </div>
         </header>
@@ -301,9 +315,14 @@
                 </div>
             </div>
         </div>
+
+		<!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+		<!-- Scripts da página -->
+        <script src="js/scripts.js"></script>
+        <script src="js/effects.js"></script>
     </body>
 
 
