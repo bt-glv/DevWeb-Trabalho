@@ -4,6 +4,14 @@ height: auto;
 width: 40rem;
 }
 
+.tech-icon{
+max-width: 30%;
+height: auto;
+}
+
+.icon-container {
+text-align: center;	
+}
 .why-grid-item {
 margin:1rem;
 padding-top:1rem;

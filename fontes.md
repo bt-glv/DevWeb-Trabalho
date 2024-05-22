@@ -2,6 +2,10 @@
 Icones e fontes:
 Font Awesome
 
+DevIcons:
+(icones de linguagens de programacao, etc)
+https://devicon.dev/
+
 Navbar reponsiva:
 Template bootstrap
 
