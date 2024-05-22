@@ -1,17 +1,21 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
-
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
+//
+// Função para simplificar a seleção de elementos
+// So existe dentro desse escopo
+  const select = (elemento, todos_os_elementos = false) => {
+    elemento = elemento.trim()
+    if (todos_os_elementos) {
+      return [...document.querySelectorAll(elemento)]
     } else {
-      return document.querySelector(el)
+      return document.querySelector(elemento)
     }
   }
 
 
+//
+// Efeito de escrita usado em index.html
 const typed = select('.typed')
 
   if (typed) {
